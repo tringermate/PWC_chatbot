@@ -20,9 +20,13 @@ I am using FAISS for efficient similarity search.
 ## Bottlenecks
 
 -The chatbots do not perform as well as intended, which (in my opinion) is largely due to llms' limitations. I believe that with larger models these systems (especially the pwc_contextualize.ipynb) could provide much better answers. 
+
 -I also think, that with better composed prompts the models could generate more accurate answers.
+
 -There are also inefficients in the framework itself, for example the program does not save the database it creates after scraping the website.
+
 -Chunk sizes and overlaps could also be better tailored to the data, and the llms' capabilities.
+
 -The memory handling could also be improved, for example instead of using a buffer window memory, a summarizer model, or even a knowledge graph type memory could be implemented
 
 ## Testing
